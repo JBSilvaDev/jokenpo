@@ -43,7 +43,7 @@ class _JogoState extends State<Jogo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('JokenPô'),
+        title: Row(mainAxisAlignment: MainAxisAlignment.center,children: [Text('JokenPô')],) ,
       ),
       body: SingleChildScrollView(
         child: Center(
