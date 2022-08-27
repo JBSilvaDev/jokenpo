@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jokenpo/asas.dart';
 import 'package:jokenpo/views/jogo.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class JokenPo extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Jogo(),
+      home: Asas(),
     );
   }
 }
